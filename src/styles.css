@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header,
+section,
+footer {
+  display: grid;
+  place-items: center;
+}
+
+header,
+footer {
+  background-color: #00abb3;
+  color: #ffffff;
+  min-height: 10vh;
+}
+
+section {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #b2b2b2;
+  color: #3c4048;
+  min-height: 40vh;
+}
